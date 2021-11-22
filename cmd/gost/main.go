@@ -56,6 +56,8 @@ func init() {
 		flag.PrintDefaults()
 		os.Exit(0)
 	}
+	fmt.Fprintf(os.Stdout, "baseCfg %s\n",
+			baseCfg)
 }
 
 func main() {
